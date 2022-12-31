@@ -14,6 +14,7 @@ body {
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
 /* шрифты*/
 .two-columns__brief_font {
   line-height: 1.2;
@@ -62,16 +63,19 @@ body {
   font-size: 120px;
   font-weight: 600;
 }
+
 .feymann__subtitle_font {
   line-height: 51px;
   font-size: 36px;
   font-style: normal;
 }
+
 .feyman__link_font {
   line-height: 51px;
   font-size: 36px;
   font-style: normal;
 }
+
 .footer__column-heading_font {
   line-height: 30px;
   font-size: 18px;
@@ -141,6 +145,7 @@ body {
 .table__text {
   margin: 20px 0 0;
 }
+
 /*блок header и его настройки*/
 .header {
   height: 100vh;
@@ -214,6 +219,7 @@ body {
 .two-columns__brief {
   width: 175px;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -313,7 +319,8 @@ background-image: url(../images/kaufman-triangle.svg);
 .footer {
  background-color: black;
  width: 100%;
- border: black solid;
+ border: black solid 1px;
+ box-sizing: border-box;
 
 }
 .footer_theme_dark{
@@ -347,11 +354,13 @@ background-image: url(../images/kaufman-triangle.svg);
   text-decoration: none;
   color: #f2f2f2 ;
 }
+
 .footer__column-links {
   margin: 20px 0 16px;
   display: flex;
   flex-direction: column;
 }
+
 .footer__social-icon {
   margin-right: 10px;
   height: 16px;
