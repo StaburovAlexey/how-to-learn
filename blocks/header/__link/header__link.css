@@ -1,12 +1,12 @@
 .header__link {
   text-decoration: none;
-  color:  #2f80ed;
+  color: #2f80ed;
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
 }
 
-:hover.header__link {
+.header__link:hover {
   opacity: 0.5;
   transition-property: opacity;
   transition-duration: 1s;

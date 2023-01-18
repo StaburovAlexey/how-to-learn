@@ -1,4 +1,4 @@
-.feyman__link {
+.feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
@@ -9,7 +9,7 @@
   color: #2f80ed;
 }
 
-:hover.feyman__link {
+.feynman__link:hover {
   opacity: 0.5;
   transition-property: opacity;
   transition-duration: 1s;
