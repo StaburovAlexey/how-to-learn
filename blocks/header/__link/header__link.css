@@ -5,3 +5,9 @@
   font-size: 18px;
   font-style: normal;
 }
+
+:hover.header__link {
+  opacity: 0.5;
+  transition-property: opacity;
+  transition-duration: 1s;
+}

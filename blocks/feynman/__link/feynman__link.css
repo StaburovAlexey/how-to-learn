@@ -8,3 +8,9 @@
   font-style: normal;
   color: #2f80ed;
 }
+
+:hover.feyman__link {
+  opacity: 0.5;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
